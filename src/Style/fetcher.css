@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+
+body {
+  background-image: url("img/back.jpg");
+  background-color: #141414;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.wrap {
+  z-index: 10;
+}
+
+.welcome_title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: "Hind Siliguri", sans-serif;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  z-index: 10;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 45%;
+  width: max-content;
+  margin: auto;
+  gap: 20px;
+  z-index: 10;
+}
+
+.wrapper .gamesData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: max-content;
+  background-color: #141414;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: "Hind Siliguri", sans-serif;
+  z-index: 10;
+
+}
+
+.wrapper .gamesData img {
+  width: 100%;
+  border-radius: 10px;
+}
+.wrapper .gamesData a {
+  margin-top: 15px;
+  text-decoration: none;
+  color: White;
+  padding: 10px;
+  background-color: #202020;
+  border-radius: 5px;
+}
+
+.wrap .overlay {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
